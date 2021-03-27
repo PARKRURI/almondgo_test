@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head> 
+    <meta charset= utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title> Document </title>
+</head>
+
+<body>
+    {% for board in boardobject %}
+        <p>ㅡㅡㅡㅡㅡㅡㅡ</p>
+        <h1> 상품 이름 : {{ board.title }}</h1>
+        <h1> 상품 가격  : {{ board.content_type }}</h1>
+        <p> 상품 상세 설명 : {{ board.content }}</p>
+        <p>글쓴 날짜 : {{ board.write_date }}</p>
+        <p>ㅡㅡㅡㅡㅡㅡㅡ</p>
+    {% endfor %}
+</body>
+</html>
+
+
