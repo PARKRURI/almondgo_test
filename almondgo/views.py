@@ -1,10 +1,15 @@
 from django.shortcuts import render, redirect
-from almondgo.models import Board
-from almondgo.extract import findSentence
-import requests
+# from almondgo.models import Board
+# from almondgo.extract import findSentence
+'''
+from .models import Product
+from django.views.generic.edit import FormView
+from .forms import RegisterForm
+'''
 
 # Create your views here.
 # 게시판
+'''
 def boardView(request):
     template_name = 'almondgo/almondgo.html'
     board_object = Board.objects.all()
@@ -12,7 +17,7 @@ def boardView(request):
         'boardobject':board_object
     }
     return render(request, template_name, context)
-
+'''
 #첫페이지 
 def firstpage(request):
     template_name ='almondgo/firstpage.html'
@@ -78,6 +83,22 @@ def menupick(request):
     template_name = 'almondgo/menupick.html'
     return render(request, template_name)
 
+# 상품 등록
+'''
+class Product(FormView):
+    template_name ="almondgo/product_register.html"
+    form_class = RegisterForm
+    success_url="/"
+
+    def form_valid(self,form):
+        product = Product (
+            name = form.data.get('name'),
+            price = form.data.get('price'),
+            description = form.data.get('description')
+        )
+        product.save()
+        return super().form_valid(form)
+'''
 
 
  

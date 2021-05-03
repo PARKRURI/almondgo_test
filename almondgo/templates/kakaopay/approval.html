@@ -10,7 +10,7 @@ h2 {position:absolute;
 span { position:absolute;
       top:40%;
       left:3%;}
- 
+
 .btn { border:none;
        background-color:inherit;
        padding:14px; 15px;
@@ -38,13 +38,14 @@ span { position:absolute;
 
 
 
-<a> <img src="https://i.ibb.co/tbMDfjp/i-Phone-XR-XS-Max-11-13.jpg" alt="i-Phone-XR-XS-Max-11-13" border="0"></a>
+<!-- <a><img src="https://i.ibb.co/tbMDfjp/i-Phone-XR-XS-Max-11-13.jpg" alt="i-Phone-XR-XS-Max-11-13" border="0"></a> -->
+<a><img src="https://i.ibb.co/k80qV74/approval.png" border="0"></a>
 
 
 {% block content %}
   <div class="mt-5 pt-5 row justify-content-center">
     <h2 class="text-center my-5 col-12">결제가 완료되었습니다!</h2>
-    
+
 
 <span>
       <h3>주문자 정보</h3>
@@ -54,16 +55,16 @@ span { position:absolute;
         <p>결제금액</p><div class="h6 col-6 text-right">{{ amount }}원</div></div>
         <p>결제승인시각</p><div class="h6 col-6 text-right">{{ res.approved_at }}</div></div>
       </div>
-      
+
 </span>
 
 
 
   </div>
-# 하단 버튼 
+# 하단 버튼
 <div>
 <button type="button" class="btn map"> <a href=""> 지도 확인 </button>
-<button type="button" class="btn goshopping"> <a href="http://127.0.0.1:8000/fmain/"> 계속 쇼핑하기 </button>
+<button type="button" class="btn goshopping"> <a href="http://almondgotest.pythonanywhere.com/fmain/"> 계속 쇼핑하기 </button>
 
 {% endblock %}
 </body>
