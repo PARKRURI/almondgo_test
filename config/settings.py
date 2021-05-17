@@ -26,7 +26,7 @@ SECRET_KEY = 'tg0qncpi&!!pq_8c0%4)-ohq&$t%_ys^fen0ld1!(o7()*vz@o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','15.165.149.62',]
+ALLOWED_HOSTS = ['*','15.165.149.62','.almondgo.shop',]
 
 
 # Application definition
