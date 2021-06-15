@@ -54,6 +54,7 @@ urlpatterns = [
     path('kakaopay/', index),
     path('approval/', approval),
     path('menupick/', menupick),
+    path('cart/', include('cart.urls')),
 #    path('summernote/', include('djnago_summernote.urls')),
 #    path('product_register/', ProductRegister),
    
