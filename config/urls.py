@@ -40,7 +40,7 @@ from almondgo.views import menupick
 urlpatterns = [
     path('admin/', admin.site.urls),
 #    path('view/', boardView),
-    path('', include ('blog.urls')),
+#   path('', include ('blog.urls')),
     path('test/',test),
     path('search/', result),
     path('result/', result),
@@ -55,7 +55,7 @@ urlpatterns = [
     path('kakaopay/', index),
     path('approval/', approval),
     path('menupick/', menupick),
-    path('cart/', include('cart.urls')),
+    path('', include('cart.urls')),
 #    path('summernote/', include('djnago_summernote.urls')),
 #    path('product_register/', ProductRegister),
    
