@@ -31,6 +31,7 @@ from almondgo.views import fmain
 from kakaopay.views import index
 from kakaopay.views import approval
 from almondgo.views import menupick
+
 # from django.contrib import Product
 
 
