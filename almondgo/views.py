@@ -78,10 +78,41 @@ def fmain(request):
     }
     return render(request,'almondgo/fmain.html',context=context)
 
-# 메뉴 고르는 화면_ 오프라인 방문 시 특징 정보 
-def menupick(request):
-    template_name = 'almondgo/menupick.html'
+# 카페 광장 메뉴 고르기 
+def menupickg(request):
+    template_name = 'almondgo/menupickg.html'
     return render(request, template_name)
+
+# 콰이 메뉴 고르기 
+def menupickq(request):
+    template_name = 'almondgo/menupickq.html'
+    return render(request, template_name)
+
+# 장바구니
+def cartcart(request):
+    template_name = 'almondgo/cartcart.html'
+    return render(request, template_name)
+
+# 근접 매장 추천
+def near(request):
+    template_name = 'almondgo/near.html'
+    return render(request, template_name)
+
+# 패스트푸드
+def fastfood(request):
+    template_name = 'almondgo/fastfood.html'
+    return render(request, template_name)
+
+# 중식
+def china(request):
+    template_name = 'almondgo/china.html'
+    return render(request, template_name)
+
+# 카페
+def cafe(request):
+    template_name = 'almondgo/cafe.html'
+    return render(request, template_name)
+
 
 # 상품 등록
 '''
