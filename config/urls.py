@@ -17,6 +17,13 @@ from django.contrib import admin
 from django.urls import path , include
 from django.conf.urls import url #추가
 # from almondgo.views import boardView
+from almondgo.views import menupickg
+from almondgo.views import cartcart
+from almondgo.views import near
+from almondgo.views import fastfood
+from almondgo.views import china
+from almondgo.views import cafe
+from almondgo.views import menupickq
 from almondgo.views import test
 from almondgo.views import result
 from almondgo.views import start
@@ -30,13 +37,7 @@ from almondgo.views import start2
 from almondgo.views import fmain
 from kakaopay.views import index
 from kakaopay.views import approval
-from almondgo.views import menupickg
-from almondgo.views import cartcart
-from almondgo.views import near
-from almondgo.views import fastfood
-from almondgo.views import china
-from almondgo.views import cafe
-from almondgo.views import menupickq
+
 # from django.contrib import Product
 
 
@@ -60,13 +61,12 @@ urlpatterns = [
     path('kakaopay/', index),
     path('approval/', approval),
     path('menupickg/', menupickg),
-    path('cart/', include('cart.urls')),
     path('cartcart/', cartcart),
     path('near/', near),
     path('fastfood/', fastfood),
     path('china/', china),
     path('cafe/',cafe),
-    path('menupickq/', menupickq)
+    path('menupickq/', menupickq),
 
 #    path('summernote/', include('djnago_summernote.urls')),
 #    path('product_register/', ProductRegister),
