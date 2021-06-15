@@ -30,8 +30,13 @@ from almondgo.views import start2
 from almondgo.views import fmain
 from kakaopay.views import index
 from kakaopay.views import approval
-from almondgo.views import menupick
-
+from almondgo.views import menupickg
+from almondgo.views import cartcart
+from almondgo.views import near
+from almondgo.views import fastfood
+from almondgo.views import china
+from almondgo.views import cafe
+from almondgo.views import menupickq
 # from django.contrib import Product
 
 
@@ -54,8 +59,15 @@ urlpatterns = [
     path('fmain/', fmain),
     path('kakaopay/', index),
     path('approval/', approval),
-    path('menupick/', menupick),
-    path('', include('cart.urls')),
+    path('menupickg/', menupickg),
+    path('cart/', include('cart.urls')),
+    path('cartcart/', cartcart),
+    path('near/', near),
+    path('fastfood/', fastfood),
+    path('china/', china),
+    path('cafe/',cafe),
+    path('menupickq/', menupickq)
+
 #    path('summernote/', include('djnago_summernote.urls')),
 #    path('product_register/', ProductRegister),
    
