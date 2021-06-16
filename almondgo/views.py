@@ -157,7 +157,7 @@ def amelong(request):
     return render(request, template_name)
 
 def amesub(request):
-    template_name = 'almondgo/amsub.html'
+    template_name = 'almondgo/amesub.html'
     return render(request, template_name)
 
 def ameall(request):
