@@ -1,8 +1,9 @@
-from typing import ClassVar
-from django.db import models
-from shop.models import Product
+#from typing import ClassVar
+# from django.db import models
+# from shop.models import Product
 
 # Create your models here.
+'''
 class Cart(models,Model):
     cart_id = models.CharField(max_length=250, blank=True)
     date_added = models.DataFiled(auto_now_add=True)
@@ -26,3 +27,4 @@ class CartItem(models.Model):
 
     def __str__(self):
         return self.product
+'''

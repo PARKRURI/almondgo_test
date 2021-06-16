@@ -1,3 +1,4 @@
+'''
 from django.shortcuts import render, redirect
 from shop.models import Product
 from .models import Cart, CartItem
@@ -48,3 +49,4 @@ def cart_detail(request, total=0, counter=0, cart_items = None):
         pass
 
     return render(request, 'cart.html', dict(cart_items, total=total, counter=counter))
+'''
