@@ -169,7 +169,7 @@ def jjasub(request):
     template_name = 'almondgo/jjasub.html'
     return render(request, template_name)
 
-def jjall(request):
+def jjaall(request):
     template_name = 'almondgo/jjaall.html'
     return render(request, template_name)
 
