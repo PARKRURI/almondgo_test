@@ -78,14 +78,19 @@ def fmain(request):
     }
     return render(request,'almondgo/fmain.html',context=context)
 
+# 그냥 메뉴 고르기 
+def menupick(request):
+    template_name = 'almondgo/menupick.html'
+    return render(request, template_name)
+
 # 카페 광장 메뉴 고르기 
-def menupickg(request):
-    template_name = 'almondgo/menupickg.html'
+def gwang(request):
+    template_name = 'almondgo/gwang.html'
     return render(request, template_name)
 
 # 콰이 메뉴 고르기 
-def menupickq(request):
-    template_name = 'almondgo/menupickq.html'
+def quai(request):
+    template_name = 'almondgo/quai.html'
     return render(request, template_name)
 
 # 장바구니
@@ -113,6 +118,18 @@ def cafe(request):
     template_name = 'almondgo/cafe.html'
     return render(request, template_name)
 
+#페이
+def pay1(request):
+    template_name = 'almondgo/pay1.html'
+    return render(request, template_name)
+
+def pay2(request):
+    template_name = 'almondgo/pay2.html'
+    return render(request, template_name)
+
+def pay3(request):
+    template_name = 'almondgo/pay3.html'
+    return render(request, template_name)
 
 # 상품 등록
 '''

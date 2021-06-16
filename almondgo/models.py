@@ -1,5 +1,5 @@
 from django.db import models
-from shop.models import Product
+# from shop.models import Product
 
 # Create your models here.
 
@@ -28,6 +28,8 @@ class Product(models.Model):
         db_table ="Shoppingmall_Product"
         verbose_name ="상품"
         verbose_name_plural = "상품"
+
+'''
 '''
 #cart 관련 모델 생성 
 class Cart(models.Model):
@@ -53,3 +55,5 @@ class CartItem(models.Model):
 
     def __str__(self):
         return self.product
+
+'''
