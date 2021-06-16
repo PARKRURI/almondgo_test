@@ -139,6 +139,40 @@ def jja(request):
     template_name = 'almondgo/jja.html'
     return render(request, template_name)
 
+#아메 정보
+def ameshort(request):
+    template_name = 'almondgo/ameshort.html'
+    return render(request, template_name)
+
+def amelong(request):
+    template_name = 'almondgo/amelong.html'
+    return render(request, template_name)
+
+def amesub(request):
+    template_name = 'almondgo/amsub.html'
+    return render(request, template_name)
+
+def ameall(request):
+    template_name = 'almondgo/ameall.html'
+    return render(request, template_name)
+
+# 짜장 정보 
+def jjashort(request):
+    template_name = 'almondgo/jjashort.html'
+    return render(request, template_name)
+
+def jjalong(request):
+    template_name = 'almondgo/jjalong.html'
+    return render(request, template_name)
+
+def jjasub(request):
+    template_name = 'almondgo/jjasub.html'
+    return render(request, template_name)
+
+def jjall(request):
+    template_name = 'almondgo/jjaall.html'
+    return render(request, template_name)
+
 # 상품 등록
 '''
 class Product(FormView):
