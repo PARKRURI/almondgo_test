@@ -131,6 +131,14 @@ def pay3(request):
     template_name = 'almondgo/pay3.html'
     return render(request, template_name)
 
+def jjapay1(request):
+    template_name = 'almondgo/jjapay1.html'
+    return render(request, template_name)
+
+def jjapay3(request):
+    template_name = 'almondgo/jjapay3.html'
+    return render(request, template_name)
+
 def ame(request):
     template_name = 'almondgo/ame.html'
     return render(request, template_name)
