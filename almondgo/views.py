@@ -131,6 +131,14 @@ def pay3(request):
     template_name = 'almondgo/pay3.html'
     return render(request, template_name)
 
+def ame(request):
+    template_name = 'almondgo/ame.html'
+    return render(request, template_name)
+
+def jja(request):
+    template_name = 'almondgo/jja.html'
+    return render(request, template_name)
+
 # 상품 등록
 '''
 class Product(FormView):
