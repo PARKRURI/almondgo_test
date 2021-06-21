@@ -55,7 +55,6 @@ from almondgo.views import pay2
 from almondgo.views import pay3
 from almondgo.views import gwangoff
 from almondgo.views import quaioff
-
 from almondgo.views import boshort
 from almondgo.views import bolong
 from almondgo.views import bosub
@@ -113,7 +112,7 @@ urlpatterns = [
     path('boshort/', boshort),
     path('bolong/', bolong),
     path('bosub/', bosub),
-    path('boall/',boall),
+    path('boall/', boall),
     path('bo/', bo),
 ]
 

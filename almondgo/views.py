@@ -186,7 +186,7 @@ def boshort(request):
     template_name = 'almondgo/boshort.html'
     return render(request, template_name)
 
-def boklong(request):
+def bolong(request):
     template_name = 'almondgo/bolong.html'
     return render(request, template_name)
 
@@ -202,17 +202,15 @@ def boall(request):
 def quaioff(request):
     template_name = 'almondgo/quaioff.html'
     return render(request, template_name)
-'''
-def booff(request):
-    template_name = 'almondgo/booff.html'
-    return render(request, template_name)
-'''
+
 def gwangoff(request):
     template_name = 'almondgo/gwangoff.html'
     return render(request, template_name)
-
-
-
+'''
+def booff(request):
+    template_name = 'almondgo/booff.html'
+    return render(request,template_name)
+'''
 
 # 상품 등록
 '''
