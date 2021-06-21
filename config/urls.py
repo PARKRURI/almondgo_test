@@ -60,6 +60,7 @@ from almondgo.views import bolong
 from almondgo.views import bosub
 from almondgo.views import boall
 from almondgo.views import bo
+from almondgo.views import dduck
 # from almondgo.views import booff
 
 # from django.contrib import Product
@@ -114,6 +115,7 @@ urlpatterns = [
     path('bosub/', bosub),
     path('boall/', boall),
     path('bo/', bo),
+    path('dduck/',dduck)
 ]
 
 

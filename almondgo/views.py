@@ -202,6 +202,10 @@ def boall(request):
     template_name = 'almondgo/boall.html'
     return render(request, template_name)
 
+def dduck(request):
+    template_name ="almondgo/dduck.html"
+    return render(request, template_name)
+
 # 오프라인 매장 정보
 def quaioff(request):
     template_name = 'almondgo/quaioff.html'
