@@ -104,8 +104,8 @@ def near(request):
     return render(request, template_name)
 
 # 패스트푸드
-def fastfood(request):
-    template_name = 'almondgo/fastfood.html'
+def korea(request):
+    template_name = 'almondgo/korea.html'
     return render(request, template_name)
 
 # 중식

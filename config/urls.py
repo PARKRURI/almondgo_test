@@ -33,7 +33,7 @@ from kakaopay.views import approval
 from almondgo.views import menupick
 from almondgo.views import cartcart
 from almondgo.views import near
-from almondgo.views import fastfood
+from almondgo.views import korea
 from almondgo.views import china
 from almondgo.views import cafe
 from almondgo.views import gwang
@@ -78,7 +78,7 @@ urlpatterns = [
     path('menupick/', menupick),
     path('cartcart/', cartcart),
     path('near/', near),
-    path('fastfood/', fastfood),
+    path('korea/', korea),
     path('china/', china),
     path('cafe/',cafe),
     path('pay1/', pay1),
