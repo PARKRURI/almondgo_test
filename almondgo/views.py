@@ -181,6 +181,39 @@ def jjaall(request):
     template_name = 'almondgo/jjaall.html'
     return render(request, template_name)
 
+# 떡 정보 
+def boshort(request):
+    template_name = 'almondgo/boshort.html'
+    return render(request, template_name)
+
+def boklong(request):
+    template_name = 'almondgo/bolong.html'
+    return render(request, template_name)
+
+def bosub(request):
+    template_name = 'almondgo/bosub.html'
+    return render(request, template_name)
+
+def boall(request):
+    template_name = 'almondgo/boall.html'
+    return render(request, template_name)
+
+# 오프라인 매장 정보 
+def gwangoff(request):
+    template_name = 'almondgo/gwangoff.html'
+    return render(request, template_name)
+
+def quaioff(request):
+    template_name = 'almondgo/quaioff.html'
+    return render(request, template_name)
+
+def dduckoff(request):
+    template_name = 'almondgo/dduckoff.html'
+    return render(request, template_name)
+
+
+
+
 # 상품 등록
 '''
 class Product(FormView):
