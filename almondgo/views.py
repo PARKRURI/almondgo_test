@@ -147,6 +147,10 @@ def jja(request):
     template_name = 'almondgo/jja.html'
     return render(request, template_name)
 
+def bo(request):
+    template_name = 'almondgo/bo.html'
+    return render(request, template_name)
+
 #아메 정보
 def ameshort(request):
     template_name = 'almondgo/ameshort.html'
