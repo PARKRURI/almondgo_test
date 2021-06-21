@@ -53,6 +53,16 @@ from almondgo.views import jjapay3
 from almondgo.views import pay1
 from almondgo.views import pay2
 from almondgo.views import pay3
+from almondgo.views import gwangoff
+from almondgo.views import quaioff
+from almondgo.views import booff
+from almondgo.views import boshort
+from almondgo.views import bolong
+from almondgo.views import bosub
+from almondgo.views import boall
+from almondgo.views import bo
+
+
 # from django.contrib import Product
 
 
@@ -97,13 +107,21 @@ urlpatterns = [
     path('jjasub/', jjasub),
     path('jaaall/', jjaall),
     path('jjapay1/', jjapay1),
-    path('jjapay3/', jjapay3),
+    path('gwangoff/', gwangoff),
+    path('quaioff/', quaioff),
+    path('booff/', booff),
+    path('boshort/', boshort),
+    path('bolong/', bolong),
+    path('bosub/', bosub),
+    path('boall/',boall),
+    path('bo/', bo),
+]
 
 
 #    path('summernote/', include('djnago_summernote.urls')),
 #    path('product_register/', ProductRegister),
    
 
-]
+
    
                
