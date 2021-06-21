@@ -204,7 +204,7 @@ def quaioff(request):
     return render(request, template_name)
 
 def booff(request):
-    template_name = 'almondgo/dduckoff.html'
+    template_name = 'almondgo/booff.html'
     return render(request, template_name)
 
 def gwangoff(request):
