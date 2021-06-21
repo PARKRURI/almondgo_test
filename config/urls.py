@@ -55,13 +55,13 @@ from almondgo.views import pay2
 from almondgo.views import pay3
 from almondgo.views import gwangoff
 from almondgo.views import quaioff
-from almondgo.views import booff
+
 from almondgo.views import boshort
 from almondgo.views import bolong
 from almondgo.views import bosub
 from almondgo.views import boall
 from almondgo.views import bo
-
+# from almondgo.views import booff
 
 # from django.contrib import Product
 
@@ -109,7 +109,7 @@ urlpatterns = [
     path('jjapay1/', jjapay1),
     path('gwangoff/', gwangoff),
     path('quaioff/', quaioff),
-    path('booff/', booff),
+#     path('booff/', booff),
     path('boshort/', boshort),
     path('bolong/', bolong),
     path('bosub/', bosub),
