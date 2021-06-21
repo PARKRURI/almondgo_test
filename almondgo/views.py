@@ -202,11 +202,11 @@ def boall(request):
 def quaioff(request):
     template_name = 'almondgo/quaioff.html'
     return render(request, template_name)
-
+'''
 def booff(request):
     template_name = 'almondgo/booff.html'
     return render(request, template_name)
-
+'''
 def gwangoff(request):
     template_name = 'almondgo/gwangoff.html'
     return render(request, template_name)
