@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 <style>
 
     h2 {position:absolute;
@@ -38,10 +38,12 @@
               left:3%; }
 
 
-    .basket { top:92%;
+    .basket {color:white; 
+          top:94%;
           left:2.1%; }
 
-    .gobuy {top: 92%;
+    .gobuy {color:white;
+        top: 94%;
         left: 50%; }
 
 </style>
@@ -65,7 +67,7 @@
 
 <div>
 <button type="button" class="btn basket" onClick="location.href='/bo/'"> 이전으로 </button>
-<button type="button" class="btn gobuy" 바로 결제 </button>
+<button type="button" class="btn gobuy" onClick="location.href='/gobuy/'">바로 결제 </button>
 </body>
 
 </html>

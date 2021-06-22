@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 
 <script>
 var path = "imgUrl" + "?" +Date.now();
@@ -34,11 +34,11 @@ $("#img").attr('src', path);
             position: absolute;
             font-size:45px;
             }
-        .back {color:white;
+         .back {color:white;
                top:97%;
-               left:2.1%;}
+               left:2%;}
 
-        .pay {color:white;
+         .pay {color:white;
                top:97%;
                left:50%;}
         
@@ -76,7 +76,6 @@ $("#img").attr('src', path);
 
 </div>
 
-<p> 땅콩, 아몬드, 대두 등의 <br> 특이사항이 있습니다.  </p>
 <!-- <h1> 검색하기 </h1> -->
 
 
@@ -85,7 +84,7 @@ $("#img").attr('src', path);
 <strong>
 
 <button type="button" class ="btn back" onClick="location.href='/ame/'"> 뒤로가기 </button>
-<button type="button" class ="btn back" onClick="location.href='/pay1/'"> 바로결제 </button>
+<button type="button" class ="btn pay" onClick="location.href='/pay1/'"> 바로결제 </button>
 </strong>
 </div>
 
