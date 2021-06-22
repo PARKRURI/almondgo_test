@@ -100,7 +100,7 @@ urlpatterns = [
     path('amelong/', amelong),
     path('amesub/', amesub),
     path('ameall/', ameall),
-    path('quai/',quai),
+    path('quai/', quai),
     path('jja/', jja),
     path('jjashort/', jjashort),
     path('jjalong/', jjalong),
@@ -115,7 +115,7 @@ urlpatterns = [
     path('bosub/', bosub),
     path('boall/', boall),
     path('bo/', bo),
-    path('dduck/',dduck)
+    path('dduck/', dduck)
 ]
 
 
