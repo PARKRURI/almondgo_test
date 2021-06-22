@@ -78,10 +78,12 @@ def fmain(request):
     }
     return render(request,'almondgo/fmain.html',context=context)
 
+'''
 # 그냥 메뉴 고르기 
 def menupick(request):
     template_name = 'almondgo/menupick.html'
     return render(request, template_name)
+'''
 
 # 카페 광장 메뉴 고르기 
 def gwang(request):
