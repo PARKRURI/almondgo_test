@@ -2,7 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+<script>
+var path = "imgUrl" + "?" +Date.now();
+$("#img").attr('src', path);
+</script>
 <style>
     p {  font-size:50px;
           top:70%;
@@ -37,12 +41,14 @@
 
 <body>
 <div>
-<a><img src="https://i.ibb.co/qrbd3hf/i-Phone-XR-XS-Max-11-27.png" border="0"></a>
+
+<a><img src="https://i.ibb.co/wNRBhyS/i-Phone-XR-XS-Max-11-33.jpg?ver=1" border="0"></a>
+
 </div>
 <p> 연결된 <br> 결제 수단 <br> 신한 카드  </p>
 <div>
 <button type="button" class="btn goback" onClick="location.href='/ame/'">  이전으로 </button>
-<button type="button" class="btn gobuy"onClick="location.href='/pay2/'"> 바로 결제 </button>
+<button type="button" class="btn gobuy"onClick="location.href='/pay3/'"> 바로 결제 </button>
 </body>
 
 </html>

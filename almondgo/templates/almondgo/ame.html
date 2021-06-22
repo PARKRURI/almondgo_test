@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 <style>
 
     h2 {position:absolute;
@@ -13,36 +13,38 @@
        border:none;
        background-color:inherit;
        padding:14px; 15px;
-       font-size:20px;
        cursor:pointer;
        display:inline-block;
        width:230px; height:130px;
        position:absolute;
-       font-size:50px;
+       
         }
-    .eatperiod {
+    .eatperiod {font-size:50px;
               top:69%;
               left:50%;}
 
-    .shortinfo { top:51%;
+    .shortinfo { font-size:50px;
+             top:51%;
              left:2.7%;
               }
 
-    .longinfo {
+    .longinfo {font-size:50px;
              top:51%;
              left:50%;
               }
 
-    .allergy {
+    .allergy {font-size:50px;
               top:69%;
               left:3%; }
 
 
-    .basket { top:92%;
-          left:2.1%; }
+    .basket {font-size:40px;
+             top:92%;
+             left:2.1%; }
 
-    .gobuy {top: 92%;
-        left: 50%; }
+    .gobuy {font-size:40px;
+           top: 92%;
+           left: 50%; }
 
 </style>
 </head>
@@ -66,7 +68,7 @@
 </div>
 
 <div>
-<button type="button" class="btn basket" onClick="location.href='/gwang/'"> 이전으로 </button>
+<button type="button" class="btn basket" onClick="location.href='/gwang/'"> 뒤로가기 </button>
 <button type="button" class="btn gobuy" onClick="location.href='/pay1/'"> 바로 결제 </button>
 </body>
 
