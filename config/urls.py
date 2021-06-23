@@ -61,6 +61,11 @@ from almondgo.views import bo
 from almondgo.views import dduck
 from almondgo.views import menupick
 from almondgo.views import jjaall
+from almondgo.views import bopay1
+from almondgo.views import bopay3
+from almondgo.views import amepay1
+from almondgo.views import amepay3
+
 # from almondgo.views import booff
 
 # from django.contrib import Product
@@ -115,7 +120,11 @@ urlpatterns = [
     path('bosub/', bosub),
     path('boall/', boall),
     path('bo/', bo),
-    path('dduck/', dduck)
+    path('dduck/', dduck),
+    path('bopay1/', bopay1),
+    path('bopay3/', bopay3),
+    path('amepay1/', amepay1),
+    path('amepay3/', amepay3),
 ]
 
 

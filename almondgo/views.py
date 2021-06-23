@@ -216,6 +216,32 @@ def quaioff(request):
 def gwangoff(request):
     template_name = 'almondgo/gwangoff.html'
     return render(request, template_name)
+
+# bopay
+def bopay1(request):
+    template_name = 'almondgo/bopay1.html'
+    return render(request, template_name)
+
+def bopay3(request):
+    template_name = 'almondgo/bopay3.html'
+    return render(request, template_name)
+
+]# amepay
+def amepay1(request):
+    template_name = 'almondgo/amepay1.html'
+    return render(request, template_name)
+
+def amepay3(request):
+    template_name = 'almondgo/amepay3.html'
+    return render(request, template_name)
+
+
+    
+    
+    
+    
+    
+    
 '''
 def booff(request):
     template_name = 'almondgo/booff.html'
