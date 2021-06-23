@@ -62,8 +62,10 @@ from almondgo.views import dduck
 from almondgo.views import menupick
 from almondgo.views import jjaall
 from almondgo.views import bopay1
+from almondgo.views import bopay2
 from almondgo.views import bopay3
 from almondgo.views import amepay1
+from almondgo.views import amepay2
 from almondgo.views import amepay3
 
 # from almondgo.views import booff

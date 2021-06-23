@@ -222,13 +222,21 @@ def bopay1(request):
     template_name = 'almondgo/bopay1.html'
     return render(request, template_name)
 
+def bopay2(request):
+    template_name = 'almondgo/bopay2.html'
+    return render(request, template_name)
+
 def bopay3(request):
     template_name = 'almondgo/bopay3.html'
     return render(request, template_name)
 
-]# amepay
+# amepay
 def amepay1(request):
     template_name = 'almondgo/amepay1.html'
+    return render(request, template_name)
+
+def amepay2(request):
+    template_name = 'almondgo/amepay2.html'
     return render(request, template_name)
 
 def amepay3(request):
