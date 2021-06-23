@@ -124,9 +124,12 @@ urlpatterns = [
     path('bo/', bo),
     path('dduck/', dduck),
     path('bopay1/', bopay1),
+    path('bopay2/', bopay2),
     path('bopay3/', bopay3),
     path('amepay1/', amepay1),
+    path('amepay2/', amepay2),
     path('amepay3/', amepay3),
+
 ]
 
 
