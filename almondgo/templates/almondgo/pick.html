@@ -1,44 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
 <style>
- .btn {
-            border:none;
-            background-color:inherit;
-            padding:14px; 15px;
-            font-size:23px;
-            cursor:pointer;
-            display:inline-block;
-            width:350px; height:130px;
-           
-            position:absolute;
-            }
 
-        .one {color:black;
-             top:15%; 
-            left:39%;}
-        
-        .two {color:black;
-                top:30%;
-                left:39%;
-                 } 
+    h2 {position:absolute;
+      font-size:20px;
+      top: 45%;
+      left:18%;}
 
-        .three {color:black;
-                 top:45%;
-                 left:39%;
-                 }
+    .btn {
+       border:none;
+       background-color:inherit;
+       padding:14px; 15px;
+       cursor:pointer;
+       display:inline-block;
+       width:230px; height:130px;
+       position:absolute;
+       
+        }
+    .eatperiod {font-size:50px;
+              top:69%;
+              left:50%;}
+
+    .shortinfo { font-size:50px;
+             top:51%;
+             left:2.7%;
+              }
+
+    .longinfo {font-size:50px;
+             top:51%;
+             left:50%;
+              }
+
+    .allergy {font-size:50px;
+              top:69%;
+              left:3%; }
+
+
+    .basket {color:white;
+            font-size:40px;
+             top:92.5%;
+             left:2%; }
+
+    .gobuy {color:white;
+           font-size:40px;
+           top: 92.5%;
+           left: 50%; }
+
 </style>
-<center>
-<h1> 현재 시행되고 있는 지역은 울산 입니다.</h1>
 </head>
 
 <body>
+
+<a><img src="https://i.ibb.co/pdP2TP2/i-Phone-XR-XS-Max-11-36.jpg?ver=859754" alt="dding" border="0"></a>
+
+<!-- 이미지
+<h1> 제품명 :  </h1>
+<h1> 가격정보 : 원 </h1> -->
+
+<!-- <h2> 검색하기 </h2> -->
+
 <div>
-<button type ="button" class="btn one"> <a href=""> GS 편의점 신정점 </button>
-<button type ="button" class="btn two"> <a href=""> GS 편의점 복산서원점 </button>
-<button type ="button" class="btn three"> <a href=""> GS 편의점 반구미래점 </button>
+<button type="button" class="btn shortinfo" onClick="location.href='/ameshort/'"> 간단설명 </button>
+<button type="button" class="btn longinfo" onClick="location.href='/amelong/'"> 상세설명 </button>
+<button type="button" class="btn allergy" onClick="location.href='/ameall/'"> 알러지 <br> 정보 </button>
+<button type="button" class="btn eatperiod" onClick="location.href='/amesub/'"> 섭취기한 </button>
 </div>
-</center>
+
+<div>
+<button type="button" class="btn basket" onClick="location.href='/gwang/'"> 뒤로가기 </button>
+<button type="button" class="btn gobuy" onClick="location.href='/amepay1/'"> 바로 결제 </button>
 </body>
 
 </html>
