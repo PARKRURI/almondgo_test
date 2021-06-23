@@ -30,7 +30,6 @@ from almondgo.views import start2
 from almondgo.views import fmain
 from kakaopay.views import index
 from kakaopay.views import approval
-from almondgo.views import menupick
 from almondgo.views import cartcart
 from almondgo.views import near
 from almondgo.views import korea
@@ -46,7 +45,6 @@ from almondgo.views import amesub
 from almondgo.views import jja
 from almondgo.views import jjashort
 from almondgo.views import jjalong
-from almondgo.views import jjaall
 from almondgo.views import jjasub
 from almondgo.views import jjapay1
 from almondgo.views import jjapay3
@@ -61,6 +59,8 @@ from almondgo.views import bosub
 from almondgo.views import boall
 from almondgo.views import bo
 from almondgo.views import dduck
+from almondgo.views import menupick
+from almondgo.views import jjaall
 # from almondgo.views import booff
 
 # from django.contrib import Product
@@ -105,7 +105,7 @@ urlpatterns = [
     path('jjashort/', jjashort),
     path('jjalong/', jjalong),
     path('jjasub/', jjasub),
-    path('jaaall/', jjaall),
+    path('jjaall/', jjaall),
     path('jjapay1/', jjapay1),
     path('gwangoff/', gwangoff),
     path('quaioff/', quaioff),
