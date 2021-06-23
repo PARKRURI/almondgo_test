@@ -1,0 +1,60 @@
+<!-- 결제 메뉴 확인 --> 
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+<script>
+var path = "imgUrl" + "?" +Date.now();
+$("#img").attr('src', path);
+</script>
+<style>
+    p {  font-size:38px;
+          top:38%;
+          left:10%;
+          position:absolute;
+           }
+    h2 {position:absolute;
+      font-size:20px;
+      top: 45%;
+      left:18%;}
+
+    .btn {
+       border:none;
+       background-color:inherit;
+       padding:14px; 15px;
+       font-size:20px;
+       cursor:pointer;
+       display:inline-block;
+       width:230px; height:130px;
+       position:absolute;
+       font-size:50px;
+        }
+
+    .goback {font-size:45px;
+         color:white; 
+          top:94%;
+          left:2%; }
+
+    .gobuy {font-size:45px;
+      color:white;
+        top: 94%;
+        left: 49.5%; }
+</style>
+</head>
+
+<body>
+
+
+<a><img src="https://i.ibb.co/8d862kR/payment.jpg" border="0"></a>
+
+<p> 결제 수단 확인 <p>
+
+<br>
+<br>
+<strong> 연결 된 계좌 <br> 가상계좌 </strong> <br> 으로 결제 진행 </p>
+
+<button type="button" class="btn goback" onClick="window.location.href='/bopay1/'">  이전으로 </button>
+<button type="button" class="btn gobuy"onClick="location.href='/bopay3/'"> 바로 결제 </button>
+</body>
+
+</html>
