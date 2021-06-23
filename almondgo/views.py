@@ -217,6 +217,10 @@ def gwangoff(request):
     template_name = 'almondgo/gwangoff.html'
     return render(request, template_name)
 
+def dduckoff(request):
+    template_name = 'almondgo/dduckoff.html'
+    return render(request, template_name)
+
 # bopay
 def bopay1(request):
     template_name = 'almondgo/bopay1.html'
